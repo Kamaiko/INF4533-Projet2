@@ -308,7 +308,7 @@ function sendMsg() {
         let contact = arrayContacts[contactIndex];
         let msgEncrypted;
         try {
-            console.log(contact.publicKey);
+            console.log(contact.publicKey); /* Console.log la même chose que console.log(forge.pki.publicKeyToPem(contactPublicKey)); */
             let contactPublicKey = forge.pki.publicKeyFromPem(contact.publicKey);
             console.log(forge.pki.publicKeyToPem(contactPublicKey));
             msgEncrypted = forge.util.encode64(contactPublicKey.encrypt(forge.util.encodeUtf8(frmMsgText)));
