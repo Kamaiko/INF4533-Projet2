@@ -6,7 +6,7 @@
 Pour tester l'ensemble des fonctionnalités de ce projet, 
 il est favorable d'utiliser un deuxième ordinateur afin de pouvoir simuler le partage de messages entre deux ou plusieurs utilisateurs. 
 
-Dans le contexte de notre exemple, le premier utilisateur (ordinateur A) qui sera l'hôte de notre mini serveur servira de destinataire aux messages envoyés, tandis que l'autre utilisateur (ordinateur B) agira comme l'expéditeur.
+Dans le contexte de notre exemple, le premier utilisateur (ordinateur A) qui sera l'hôte de notre mini serveur servira de destinataire aux messages envoyés, tandis que l'autre utilisateur (ordinateur B) servira d'expéditeur.
 
 
 Pour lancer le projet, veuillez entrer dans le terminal :
@@ -20,22 +20,22 @@ Afin d'activer le serveur :
   node index.js
 ```
 Vous serez alors connecté sur le **port 3000** que vous pourrez accéder (http://localhost:3000/).
-Vous devez maintenant fournir deux informations essentielles au(x) expéditeur(s): **L'adresse IP de votre routeur** et votre **clé publique**
+Vous devez maintenant fournir deux informations essentielles à l'expéditeur: **L'adresse IP de votre routeur** et votre **clé publique**
   
 ### Adresse IP du routeur  
 
-D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows
-et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Finder pour Mac. Tapez ensuite :
+D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur par l'entremise d'un navigateur quelquonque. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows ou tapez *Terminal* dans Finder pour Mac
+et appuyez sur Enter pour ouvrir l'invite de commande. Tapez ensuite :
 ```bash
   ipconfig
 ```
 Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous *Ethernet adapter* ou *Wireless LAN adapter*.
-C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur.
+C'est votre routeur, et le numéro associé est l'adresse IP de votre routeur.
 
 
 ### Clé publique  
 
-Ensuite, dans le navigateur, vous verrez s'afficher notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situe respectivement l'onglet **Accueil** étant affiché par défaut lors du démarrage, suivi de **Carnet d'adresses** et **Messages**. 
+Ensuite, vous verrez s'afficher notre page web dans votre navigateur. Notre modeste interface se divise en 3 onglets. De gauche à droite se situe respectivement l'onglet **Accueil** étant affiché par défaut lors du démarrage, suivi de **Carnet d'adresses** et **Messages**. 
 Vous aurez également devant vous votre **clé publique** que vous devrez partager à l'expéditeur.
 
 Si l'on présume que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il devra inscrire dans la barre d'adresse de son navigateur l'adresse IP de votre routeur suivi du numéro de port (3000) dans le format suivant :
