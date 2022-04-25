@@ -1,4 +1,41 @@
-# INF4533-Projet2
-Projet 2
 
-Exécuter "npm install", je n'ai pas inclus le dossier node_modules parce qu'il y avait trop de fichiers
+## Installation
+Pour tester l'ensemble des fonctionnalités de ce projet, 
+il est favorable d'utiliser un autre ordinateur afin de bien pouvoir simuler le partage de messages entre deux ou + utilisateurs. 
+
+Par principe du test, le premier utilisateur(ordinateur A), qui sera l'hôte de notre mini serveur, agiera comme le destinataire des messages, tandis que l'autre utilisateur (ordinateur B) agira comme l'expéditeur.
+
+
+Pour lancer le projet, veuillez entrer dans le terminal :
+
+```bash
+  npm install
+```
+suivi de
+
+```bash
+  node index.js
+```
+Vous serez alors connecté sur le port 3000 http://localhost:3000/.
+Maintenant, vous devez fournir deux informations particulière au(x) expéditeur(s) de messages.
+
+D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez cmd dans la barre de recherche Windows ou Terminal sur Mac.
+et appuyez sur Enter pour ouvrir le Command Prompt. Tapez ensuite :
+```bash
+  ipconfig
+```
+Faites défiler les informations jusqu'à ce que vous voyiez un paramètre pour le IPv4 Address sous Ethernet adapter ou Wireless LAN adapter.
+C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur. 
+
+Ensuite, dans le navigateur, vous verez notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent l'onglet d'accueil étant l'onglet par défaut, carnet d'adresse et Messages. 
+Vous verrez devant vous votre clé publique que vous devez également partager à l'expéditeur.
+
+En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il inscrire dans la barre d'adresse de son navigateur votre adresse IP suivi du numéro de port (3000) dans le format suivant :
+
+```bash
+  192.135.0.157:3000
+```
+
+L'expéditeur devrait se situer devant notre site web. Il devra aller sous l'onglet Carnet d'adresse afin de créer son premier récipient.
+
+L'expéditeur devrait désormais se situer devant notre site web et pourra finalement envoyer son premier message. 
