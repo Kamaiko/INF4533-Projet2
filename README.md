@@ -20,9 +20,9 @@ ensuite, afin d'activer le serveur :
   node index.js
 ```
 Vous serez alors connecté sur le **port 3000** que vous pourrez accéder (http://localhost:3000/).
-Vous devez maintenant fournir deux informations essentielles au(x) expéditeur(s): **L'adresse IP de votre routeur** et **votre clé publique**__
+Vous devez maintenant fournir deux informations essentielles au(x) expéditeur(s): **L'adresse IP de votre routeur** et **votre clé publique**
 
-### Adresse IP du routeur  __
+### Adresse IP du routeur  
 
 D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows
 et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Finder pour Mac. Tapez ensuite :
@@ -30,7 +30,7 @@ et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Find
   ipconfig
 ```
 Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous *Ethernet adapter* ou *Wireless LAN adapter*.
-C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur.__
+C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur.
 
 
 ### Clé publique  
