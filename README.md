@@ -14,7 +14,7 @@ Pour lancer le projet, veuillez entrer dans le terminal :
 ```bash
   npm install
 ```
-ensuite, afin d'activer le serveur :
+Afin d'activer le serveur :
 
 ```bash
   node index.js
