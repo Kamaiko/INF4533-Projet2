@@ -17,7 +17,7 @@ suivi de
   node index.js
 ```
 Vous serez alors connecté sur le port 3000 http://localhost:3000/.
-Maintenant, vous devez fournir deux informations particulière au(x) expéditeur(s) de messages.
+Maintenant, vous devez fournir deux informations particulières au(x) expéditeur(s) de messages.
 
 D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez cmd dans la barre de recherche Windows ou Terminal sur Mac.
 et appuyez sur Enter pour ouvrir le Command Prompt. Tapez ensuite :
@@ -30,7 +30,7 @@ C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur.
 Ensuite, dans le navigateur, vous verez notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent l'onglet d'accueil étant l'onglet par défaut, carnet d'adresse et Messages. 
 Vous verrez devant vous votre clé publique que vous devez également partager à l'expéditeur.
 
-En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il inscrire dans la barre d'adresse de son navigateur votre adresse IP suivi du numéro de port (3000) dans le format suivant :
+En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il devra inscrire dans la barre d'adresse de son navigateur votre adresse IP suivi du numéro de port (3000) dans le format suivant :
 
 ```bash
   192.135.0.157:3000
@@ -38,7 +38,7 @@ En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur
 
 L'expéditeur devrait se situer devant notre site web. Il devra aller sous l'onglet Carnet d'adresse afin de créer son premier récipient et y insérer la clé publique du destinataire.
 
-Après avoir créer un contact, veuillez vous diriger vers l'onglet Message où vous pourrez envoyer votre premier message. Ceux-ci étant reçu par le destinataire seront affiché plus bas dans la section Liste de Message.
+Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet Message où il pourra envoyer votre premier message. Ceux-ci étant reçu par le destinataire seront affiché dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
 
 
 
