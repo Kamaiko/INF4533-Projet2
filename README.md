@@ -44,7 +44,7 @@ En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur
   192.135.0.157:3000
 ```
 
-L'expéditeur devrait voir s'afficher à l'écran notre site web. Il devra aller sous l'onglet **Carnet d'adresse** afin de créer son premier récipient et y insérer la clé publique du destinataire.
+L'expéditeur devrait voir s'afficher à l'écran notre site web. Il devra aller sous l'onglet **Carnet d'adresse** afin de créer son premier récipient et y associer la clé publique du destinataire.
 
 Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet **Message** où il pourra envoyer du texte. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
 
