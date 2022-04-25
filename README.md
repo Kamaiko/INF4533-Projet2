@@ -52,5 +52,3 @@ Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet Mes
 - [@Abdel-Gany Jr Odelele](https://www.github.com/2longAGO)
 
 
-
-. 
