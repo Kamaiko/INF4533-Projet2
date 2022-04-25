@@ -29,7 +29,7 @@ Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour l
 C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur. 
 
 Ensuite, dans le navigateur, vous aurez devant vous notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent respectivement l'onglet d'**Accueil** étant affichée par défaut lors du démarrage, suivi de **Carnet d'Adresse** et **Messages**. 
-Vous verrez devant vous votre **clé publique** que vous devez également partager à l'expéditeur.
+Vous verrez devant vous votre **clé publique** que vous devrez également partager à l'expéditeur.
 
 En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il devra inscrire dans la barre d'adresse de son navigateur votre adresse IP suivi du numéro de port (3000) dans le format suivant :
 
@@ -37,9 +37,9 @@ En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur
   192.135.0.157:3000
 ```
 
-L'expéditeur devrait se situer devant notre site web. Il devra aller sous l'onglet Carnet d'adresse afin de créer son premier récipient et y insérer la clé publique du destinataire.
+L'expéditeur devrait voir s'afficher devant lui notre site web. Il devra aller sous l'onglet **Carnet d'adresse** afin de créer son premier récipient et y insérer la clé publique du destinataire.
 
-Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet Message où il pourra envoyer son premier message. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
+Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet **Message** où il pourra envoyer du texte. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
 
 ## Tech Stack
 
