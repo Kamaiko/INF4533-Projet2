@@ -19,7 +19,7 @@ suivi de
 Vous serez alors connecté sur le port 3000 http://localhost:3000/.
 Maintenant, vous devez fournir deux informations particulières au(x) expéditeur(s) de messages.
 
-D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez cmd dans la barre de recherche Windows ou Terminal sur Mac.
+D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez cmd dans la barre de recherche Windows ou Terminal sur Mac
 et appuyez sur Enter pour ouvrir le Command Prompt. Tapez ensuite :
 ```bash
   ipconfig
