@@ -1,4 +1,6 @@
-<h1>Mini Serveur pour Courriel <h1>
+#Mini Serveur pour Courriel
+
+>Technologies Internet (INF4533): Projet 2
   
 ## Installation
 Pour tester l'ensemble des fonctionnalités de ce projet, 
