@@ -4,9 +4,9 @@
   
 ## Installation
 Pour tester l'ensemble des fonctionnalités de ce projet, 
-il est favorable d'utiliser un deuxième ordinateur afin de bien pouvoir simuler le partage de messages entre deux ou plusieurs utilisateurs. 
+il est favorable d'utiliser un deuxième ordinateur afin de pouvoir simuler le partage de messages entre deux ou plusieurs utilisateurs. 
 
-Dans le contexte de notre exemple, le premier utilisateur (ordinateur A) qui sera l'hôte de notre mini serveur, servira de destinataire aux messages envoyés, tandis que l'autre utilisateur (ordinateur B) agira comme l'expéditeur.
+Dans le contexte de notre exemple, le premier utilisateur (ordinateur A) qui sera l'hôte de notre mini serveur servira de destinataire aux messages envoyés, tandis que l'autre utilisateur (ordinateur B) agira comme l'expéditeur.
 
 
 Pour lancer le projet, veuillez entrer dans le terminal :
@@ -35,10 +35,10 @@ C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur.
 
 ### Clé publique  
 
-Ensuite, dans le navigateur, vous verrez s'afficher notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent respectivement l'onglet d'**Accueil** étant affiché par défaut lors du démarrage, suivi de **Carnet d'Adresse** et **Messages**. 
+Ensuite, dans le navigateur, vous verrez s'afficher notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situe respectivement l'onglet **Accueil** étant affiché par défaut lors du démarrage, suivi de **Carnet d'adresses** et **Messages**. 
 Vous aurez également devant vous votre **clé publique** que vous devrez partager à l'expéditeur.
 
-En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il devra inscrire dans la barre d'adresse de son navigateur l'adresse IP de votre routeur suivi du numéro de port (3000) dans le format suivant :
+Si l'on présume que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il devra inscrire dans la barre d'adresse de son navigateur l'adresse IP de votre routeur suivi du numéro de port (3000) dans le format suivant :
 
 ```bash
   192.135.0.157:3000
@@ -46,7 +46,7 @@ En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur
 
 L'expéditeur devrait voir s'afficher à l'écran notre site web. Il devra aller sous l'onglet **Carnet d'adresse** afin de créer son premier récipient et y associer la clé publique du destinataire.
 
-Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet **Message** où il pourra envoyer du texte. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
+Après avoir crée un contact, l'expéditeur devra se diriger vers l'onglet **Message** où il pourra envoyer du texte. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Messages.
 
 
 ## Tech Stack  
