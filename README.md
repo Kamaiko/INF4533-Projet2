@@ -24,13 +24,13 @@ Vous devez maintenant fournir deux informations essentielles à l'expéditeur: *
   
 ### Adresse IP du routeur  
 
-D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur par l'entremise d'un navigateur quelquonque. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows ou tapez *Terminal* dans Finder pour Mac
+D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur par l'entremise d'un quelconque navigateur. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows ou tapez *Terminal* dans Finder pour Mac
 et appuyez sur Enter pour ouvrir l'invite de commande. Tapez ensuite :
 ```bash
   ipconfig
 ```
 Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous *Ethernet adapter* ou *Wireless LAN adapter*.
-C'est votre routeur, et le numéro associé est l'adresse IP de votre routeur.
+C'est votre routeur, et le numéro y étant associé est l'adresse IP de votre routeur.
 
 
 ### Clé publique  
