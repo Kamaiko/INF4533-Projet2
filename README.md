@@ -25,7 +25,7 @@ et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Find
 ```bash
   ipconfig
 ```
-Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous Ethernet adapter ou Wireless LAN adapter.
+Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous *Ethernet adapter* ou *Wireless LAN adapter*.
 C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur. 
 
 Ensuite, dans le navigateur, vous verez notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent l'onglet d'accueil étant l'onglet par défaut, carnet d'adresse et Messages. 
