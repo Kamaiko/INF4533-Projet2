@@ -51,11 +51,11 @@ Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet **M
 
 ## Tech Stack  
 
-- **Serveur:** Node
+**Serveur:** Node
 
-- **Frameworks:** Express
+**Frameworks:** Express
 
-- **Librairies:** node-forge, body-parser
+**Librairies:** node-forge, body-parser
 
 
 ## Auteurs  
