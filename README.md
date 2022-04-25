@@ -21,8 +21,8 @@ ensuite, afin d'activer le serveur :
 ```
 Vous serez alors connecté sur le **port 3000** que vous pourrez accéder (http://localhost:3000/).
 Vous devez maintenant fournir deux informations spécifiques au(x) expéditeur(s):
-* Adresse IP du routeur
-* La clé publique
+1. Adresse IP du routeur
+2. La clé publique
 
 D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows
 et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Finder pour Mac. Tapez ensuite :
