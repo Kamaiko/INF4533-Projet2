@@ -23,6 +23,7 @@ Vous serez alors connecté sur le **port 3000** que vous pourrez accéder (http:
 Vous devez maintenant fournir deux informations spécifiques au(x) expéditeur(s): **L'adresse IP de votre routeur** et **votre clé publique**
 
 
+
 ### Adresse IP du routeur
 D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows
 et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Finder pour Mac. Tapez ensuite :
@@ -31,6 +32,7 @@ et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Find
 ```
 Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous *Ethernet adapter* ou *Wireless LAN adapter*.
 C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur. 
+
 
 ### Clé publique
 Ensuite, dans le navigateur, vous verrez s'afficher notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent respectivement l'onglet d'**Accueil** étant affiché par défaut lors du démarrage, suivi de **Carnet d'Adresse** et **Messages**. 
