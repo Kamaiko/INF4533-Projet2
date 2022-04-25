@@ -20,8 +20,8 @@ ensuite, afin d'activer le serveur :
 Vous serez alors connecté sur le **port 3000** que vous pourrez accéder (http://localhost:3000/).
 Maintenant, vous devez fournir deux informations particulières au(x) expéditeur(s) de messages.
 
-D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows ou *Terminal* dans Finder pour Mac
-et appuyez sur Enter pour ouvrir le Command Prompt. Tapez ensuite :
+D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows
+et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Finder pour Mac. Tapez ensuite :
 ```bash
   ipconfig
 ```
