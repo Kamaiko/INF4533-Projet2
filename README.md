@@ -20,7 +20,7 @@ Afin d'activer le serveur :
   node index.js
 ```
 Vous serez alors connecté sur le **port 3000** que vous pourrez accéder (http://localhost:3000/).
-Vous devez maintenant fournir deux informations essentielles au(x) expéditeur(s): **L'adresse IP de votre routeur** et **votre clé publique**
+Vous devez maintenant fournir deux informations essentielles au(x) expéditeur(s): **L'adresse IP de votre routeur** et votre **clé publique**
   
 ### Adresse IP du routeur  
 
