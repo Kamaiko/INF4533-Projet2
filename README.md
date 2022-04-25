@@ -17,19 +17,19 @@ ensuite, afin d'activer le serveur :
 ```bash
   node index.js
 ```
-Vous serez alors connecté sur le port 3000 que vous pourrez accéder (http://localhost:3000/).
+Vous serez alors connecté sur le **port 3000** que vous pourrez accéder (http://localhost:3000/).
 Maintenant, vous devez fournir deux informations particulières au(x) expéditeur(s) de messages.
 
-D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez cmd dans la barre de recherche Windows ou Terminal sur Mac
+D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows ou *Terminal* dans Finder pour Mac
 et appuyez sur Enter pour ouvrir le Command Prompt. Tapez ensuite :
 ```bash
   ipconfig
 ```
-Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le IPv4 Address sous Ethernet adapter ou Wireless LAN adapter.
+Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous Ethernet adapter ou Wireless LAN adapter.
 C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur. 
 
 Ensuite, dans le navigateur, vous verez notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent l'onglet d'accueil étant l'onglet par défaut, carnet d'adresse et Messages. 
-Vous verrez devant vous votre clé publique que vous devez également partager à l'expéditeur.
+Vous verrez devant vous votre **clé publique** que vous devez également partager à l'expéditeur.
 
 En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il devra inscrire dans la barre d'adresse de son navigateur votre adresse IP suivi du numéro de port (3000) dans le format suivant :
 
