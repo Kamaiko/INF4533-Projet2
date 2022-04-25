@@ -38,7 +38,7 @@ En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur
 
 L'expéditeur devrait se situer devant notre site web. Il devra aller sous l'onglet Carnet d'adresse afin de créer son premier récipient et y insérer la clé publique du destinataire.
 
-Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet Message où il pourra envoyer votre premier message. Ceux-ci étant reçu par le destinataire seront affiché dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
+Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet Message où il pourra envoyer son premier message. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
 
 
 
