@@ -38,4 +38,16 @@ En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur
 
 L'expéditeur devrait se situer devant notre site web. Il devra aller sous l'onglet Carnet d'adresse afin de créer son premier récipient.
 
-L'expéditeur devrait désormais se situer devant notre site web et pourra finalement envoyer son premier message. 
+
+## Authors
+
+- [@Jean-Pierre Masri-Clermont](https://www.github.com/JPP44)
+- [@Samuel Hein](https://www.github.com/SamHein8)
+- [@Patrick Patenaude](https://www.github.com/Kamaiko)
+- [@Lawrence Kater](https://www.github.com/lelwrence)
+- [@Marco Klayton Djouwne](https://www.github.com/)
+- [@Abdel-Gany Jr Odelele](https://www.github.com/2longAGO)
+
+
+
+. 
