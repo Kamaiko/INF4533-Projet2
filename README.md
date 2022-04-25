@@ -42,11 +42,11 @@ Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet Mes
 
 ## Tech Stack
 
-**Serveur:** Node
+- **Serveur:** Node
 
-**Frameworks:** Express
+- **Frameworks:** Express
 
-**Librairies:** node-forge, body-parser
+- **Librairies:** node-forge, body-parser
 
 
 
