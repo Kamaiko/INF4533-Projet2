@@ -1,4 +1,4 @@
-#Mini Serveur pour Courriel
+# Mini Serveur pour Courriel
 
 >Technologies Internet (INF4533): Projet 2
   
