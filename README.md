@@ -1,7 +1,7 @@
 
 ## Installation
 Pour tester l'ensemble des fonctionnalités de ce projet, 
-il est favorable d'utiliser un autre ordinateur afin de bien pouvoir simuler le partage de messages entre deux ou + utilisateurs. 
+il est favorable d'utiliser un deuxième ordinateur afin de bien pouvoir simuler le partage de messages entre deux ou + utilisateurs. 
 
 Par principe du test, le premier utilisateur(ordinateur A), qui sera l'hôte de notre mini serveur, agiera comme le destinataire des messages, tandis que l'autre utilisateur (ordinateur B) agira comme l'expéditeur.
 
