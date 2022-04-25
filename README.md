@@ -1,4 +1,5 @@
 <h1>Projet 2 (INF4533) - Mini Serveur pour Courriel<h1>
+  
 ## Installation
 Pour tester l'ensemble des fonctionnalités de ce projet, 
 il est favorable d'utiliser un deuxième ordinateur afin de bien pouvoir simuler le partage de messages entre deux ou + utilisateurs. 
