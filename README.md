@@ -3,7 +3,7 @@
 Pour tester l'ensemble des fonctionnalités de ce projet, 
 il est favorable d'utiliser un deuxième ordinateur afin de bien pouvoir simuler le partage de messages entre deux ou + utilisateurs. 
 
-En vertu de notre test, le premier utilisateur (ordinateur A) qui sera l'hôte de notre mini serveur, agiera comme le destinataire des messages, tandis que l'autre utilisateur (ordinateur B) agira comme l'expéditeur.
+En vertu de notre exemple, le premier utilisateur (ordinateur A) qui sera l'hôte de notre mini serveur, agiera comme le destinataire des messages, tandis que l'autre utilisateur (ordinateur B) agira comme l'expéditeur.
 
 
 Pour lancer le projet, veuillez entrer dans le terminal :
