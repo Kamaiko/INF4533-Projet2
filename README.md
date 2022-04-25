@@ -40,6 +40,12 @@ L'expéditeur devrait se situer devant notre site web. Il devra aller sous l'ong
 
 Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet Message où il pourra envoyer son premier message. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
 
+## Tech Stack
+
+**Serveur:** Node, Express
+
+**Librairie:** node-forge
+
 
 
 ## Auteurs
