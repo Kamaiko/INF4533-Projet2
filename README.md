@@ -26,7 +26,7 @@ Vous devez maintenant fournir deux informations essentielles au(x) expéditeur(s
 
 
 
-### Adresse IP du routeur
+### Adresse IP du routeur  
 D'abord, l'expéditeur doit se connecter au micrologiciel de votre routeur via un navigateur. N'importe quel navigateur fera l'affaire. Pour trouver l'adresse IP de votre routeur, tapez *cmd* dans la barre de recherche Windows
 et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Finder pour Mac. Tapez ensuite :
 ```bash
@@ -36,9 +36,7 @@ Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour l
 C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur. 
 
 
-
-
-### Clé publique
+### Clé publique  
 Ensuite, dans le navigateur, vous verrez s'afficher notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent respectivement l'onglet d'**Accueil** étant affiché par défaut lors du démarrage, suivi de **Carnet d'Adresse** et **Messages**. 
 Vous aurez également devant vous votre **clé publique** que vous devrez partager à l'expéditeur.
 
@@ -53,8 +51,7 @@ L'expéditeur devrait voir s'afficher à l'écran notre site web. Il devra aller
 Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet **Message** où il pourra envoyer du texte. Ceux-ci étant transmis au destinataire, seront affichés dans son navigateur, plus bas dans le même onglet sous la section Liste de Message.
 
 
-
-## Tech Stack
+## Tech Stack  
 
 - **Serveur:** Node
 
@@ -63,8 +60,7 @@ Après avoir créer un contact, l'expéditeur devra se diriger vers l'onglet **M
 - **Librairies:** node-forge, body-parser
 
 
-
-## Auteurs
+## Auteurs  
 
 - [@Jean-Pierre Masri-Clermont](https://www.github.com/JPP44)
 - [@Samuel Hein](https://www.github.com/SamHein8)
