@@ -30,8 +30,8 @@ et appuyez sur Enter pour ouvrir le Command Prompt ou tapez *Terminal* dans Find
 Faites défiler les informations jusqu'à ce que vous voyez un paramètre pour le **IPv4 Address** sous *Ethernet adapter* ou *Wireless LAN adapter*.
 C'est votre routeur, et le numéro à côté est l'adresse IP de votre routeur. 
 
-Ensuite, dans le navigateur, vous verrez s'afficher notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent respectivement l'onglet d'**Accueil** étant affichée par défaut lors du démarrage, suivi de **Carnet d'Adresse** et **Messages**. 
-Vous aurez devant vous votre **clé publique** que vous devrez également partager à l'expéditeur.
+Ensuite, dans le navigateur, vous verrez s'afficher notre page web. Notre modeste interface se divise en 3 onglets. De gauche à droite se situent respectivement l'onglet d'**Accueil** étant affiché par défaut lors du démarrage, suivi de **Carnet d'Adresse** et **Messages**. 
+Vous aurez également devant vous votre **clé publique** que vous devrez partager à l'expéditeur.
 
 En assumant que l'expéditeur ait en sa possession l'adresse IP de votre routeur ainsi que votre clé publique, il devra inscrire dans la barre d'adresse de son navigateur l'adresse IP de votre routeur suivi du numéro de port (3000) dans le format suivant :
 
